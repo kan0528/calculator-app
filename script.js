@@ -1,5 +1,6 @@
 let display = document.getElementById('display');
 let currentInput = '0';
+let memoryValue = 0;
 
 function updateDisplay() {
     display.textContent = currentInput;
@@ -56,13 +57,6 @@ function calculatePercentage() {
     }
 }
 
-// 在檔案開頭增加記憶變數
-
-let memoryValue = 0;  // 新增記憶變數
-
-// ... 原有函數 ...
-
-// 新增記憶功能函數
 function memoryAdd() {
     try {
         let currentValue = eval(currentInput);
