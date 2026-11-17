@@ -57,8 +57,7 @@ function calculatePercentage() {
 }
 
 // 在檔案開頭增加記憶變數
-let display = document.getElementById('display');
-let currentInput = '0';
+
 let memoryValue = 0;  // 新增記憶變數
 
 // ... 原有函數 ...
